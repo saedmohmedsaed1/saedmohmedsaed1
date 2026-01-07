@@ -1,0 +1,13 @@
+mkdir -p ~/.vnc
+cat > ~/.vnc/xstartup <<'EOF'
+#!/bin/sh
+xrdb $HOME/.Xresources
+startxfce4 &
+EOF
+chmod +x ~/.vnc/xstartupmkdir -p ~/.vnc
+cat > ~/.vnc/xstartup <<'EOF'
+#!/bin/sh
+xrdb $HOME/.Xresources
+startxfce4 &
+EOF
+chmod +x ~/.vnc/xstartup
