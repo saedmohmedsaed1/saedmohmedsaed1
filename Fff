@@ -11,3 +11,4 @@ xrdb $HOME/.Xresources
 startxfce4 &
 EOF
 chmod +x ~/.vnc/xstartup
+3ea3a577e317aeb88ab2e366e4c4a369f13aae24
